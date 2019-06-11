@@ -114,7 +114,6 @@ class RidiculousDates extends ConditionPluginBase implements ContainerFactoryPlu
    * {@inheritdoc}
    */
   public function submitConfigurationForm(array &$form, FormStateInterface $form_state) {
-    print $this->configuration['date'];
     $this->configuration['date'] = $form_state->getValue('date');
     parent::submitConfigurationForm($form, $form_state);
   }

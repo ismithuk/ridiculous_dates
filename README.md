@@ -30,7 +30,29 @@ You can add/update and delete these days using the config page. See Configuratio
 
 ## Installation
 
-Go to you module contrib folder
+### Composer
+
+This is currently a sandbox module so you will need to add a new repo to your composer.json file:
+
+```
+"drupal-ismith/ridiculous_dates": {
+     "type": "package",
+     "package": {
+         "name": "drupal-ismith/ridiculous_dates",
+         "version": "v0.3-alpha",
+         "type": "drupal-module",
+         "source": {
+             "url": "https://github.com/ismithuk/ridiculous_dates.git",
+             "type": "git",
+             "reference": "v0.3-alpha"
+         }
+     }
+ }
+```
+
+You can then use composer require to include this module.
+
+`composer require drupal-ismith/ridiculous_dates`
 
 ## Configuration
 
