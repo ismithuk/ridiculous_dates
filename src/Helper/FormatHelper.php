@@ -26,8 +26,8 @@ class FormatHelper {
 
     foreach ($submittedDatesExplode as $date) {
       $dateExplode = explode(':', $date);
-      $key = $dateExplode[0] . " (" . trim($dateExplode[1]) . ")";
-      $dateArray{trim($dateExplode[1])} = $key;
+      $optionValue = $dateExplode[0] . " (" . trim($dateExplode[1]) . ")";
+      $dateArray{trim($dateExplode[1])} = $optionValue;
     }
 
     return $dateArray;
