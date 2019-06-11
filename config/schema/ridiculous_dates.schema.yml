@@ -1,0 +1,7 @@
+condition.plugin.ridiculous_dates_ridiculous_dates:
+  type: condition.plugin
+  label: 'Ridiculous Dates condition'
+  mapping:
+    date:
+      type: string
+      label: Date

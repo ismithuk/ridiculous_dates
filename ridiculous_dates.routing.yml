@@ -1,0 +1,7 @@
+ridiculous_dates.settings:
+  path: '/admin/config/system/ridiculous_dates/settings'
+  defaults:
+    _title: 'Ridiculous Dates Settings'
+    _form: 'Drupal\ridiculous_dates\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

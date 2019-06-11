@@ -1,0 +1,6 @@
+ridiculous_dates.settings:
+  title: Ridiculous Dates Settings
+  description: Update ridiculous dates
+  parent: system.admin_config_system
+  route_name: ridiculous_dates.settings
+  weight: 10

@@ -1,0 +1,10 @@
+services:
+  validation_helper.ridiculous_dates:
+    class: Drupal\ridiculous_dates\Helper\ValidationHelper
+    tags:
+      - { name: helper }
+
+  format_helper.ridiculous_dates:
+    class: Drupal\ridiculous_dates\Helper\FormatHelper
+    tags:
+      - { name: helper }
