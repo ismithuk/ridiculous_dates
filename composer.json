@@ -1,10 +1,10 @@
 {
-  "name": "drupal/ridiculous_dates",
+  "name": "drupal-ismith/ridiculous_dates",
   "description": "Provides a set of ridiculous dates as conditions for block placements.",
   "type": "drupal-module",
   "license": "GPL-3.0+",
   "minimum-stability": "dev",
-  "homepage": "https://github.com/ismithuk/ridiculous_dates",
+  "homepage": "https://www.drupal.org/sandbox/ismithuk/3060863",
   "authors": [
     {
       "name": "Ian Smith",

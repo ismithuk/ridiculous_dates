@@ -29,7 +29,8 @@ You can add/update and delete these days using the config page. See Configuratio
 * Drupal 8
 
 ## Installation
-* Installation instructions to go here
+
+Go to you module contrib folder
 
 ## Configuration
 
