@@ -1,5 +1,5 @@
 {
-  "name": "ismith/ridiculous_dates",
+  "name": "drupal/ridiculous_dates",
   "description": "Provides a set of ridiculous dates as conditions for block placements.",
   "type": "drupal-module",
   "license": "GPL-3.0+",
