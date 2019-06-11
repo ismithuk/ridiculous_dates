@@ -39,12 +39,12 @@ This is currently a sandbox module so you will need to add a new repo to your co
      "type": "package",
      "package": {
          "name": "drupal-ismith/ridiculous_dates",
-         "version": "v0.3-alpha",
+         "version": "v0.4-alpha",
          "type": "drupal-module",
          "source": {
              "url": "https://github.com/ismithuk/ridiculous_dates.git",
              "type": "git",
-             "reference": "v0.3-alpha"
+             "reference": "v0.4-alpha"
          }
      }
  }
